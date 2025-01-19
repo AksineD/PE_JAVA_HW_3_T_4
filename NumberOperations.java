@@ -12,6 +12,7 @@ public class NumberOperations {
 
         choice = showMenu(scanner);
         processAndDisplayResults(num1, num2, num3, choice);
+        scanner.close();
     }
 
     /**
